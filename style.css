@@ -1,0 +1,106 @@
+body {
+	background-image: url(images/fond.jpg);
+	color: rgb(22,45,108);
+	font-family: 'Helvetica', sans-serif;
+	font-size: 20px;
+	font-style: 40px;
+	line-height: 2;
+	text-align: justify;
+}
+.container{
+	width: 900px;
+	margin: 40px auto;
+}
+
+.card {
+	background: rgb(241,246,249);
+	margin: 50px 100px;
+	padding: 50px 100px;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	text-align : center;
+}
+
+h1 {
+	color: rgb(117,133,87);
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	font-weight: 900
+}
+
+img{
+	border-radius: 150px;
+}
+
+#btn-kaki {
+	background-color: rgb(117,133,87);
+	color : white;
+	padding: 8px 14px;
+	border-radius: 4px;
+}
+#btn-kaki:hover {
+	background-color: rgb(117,133,87);
+	color : rgb(22,45,108);
+}
+
+h2{
+	color: rgb(22,45,108);
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	font-weight: 700
+
+}
+
+.paragraph-justify {
+	text-align: justify;
+}
+
+ul{
+	padding-left: 0;
+}
+
+.logo-RS {
+	list-style: none;
+	padding-left: Opx;
+	display: inline;
+	padding: 5px;
+}
+
+.logo-RS i {
+	font-size: 45px;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(22,45,108);
+}
+a:hover {
+	color: rgb(117,133,87);
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  	.card img{
+		width: 100px;
+		height: 100px;
+	}
+	.container {
+    width: 500px;
+  }
+ }
+
+@media (max-width: 540px) {
+	.card img{
+		width: 100px;
+		height: 100px;
+	}
+	.container {
+		width: 300px;
+	}
+ }
+
